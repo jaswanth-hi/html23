@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #bg1{
+            background-color:blue;
+           
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 100px 100px 100px;
+            gap: 3px;
+
+
+        
+            
+
+
+        }
+        #bg1 div{
+            background-color: red;
+            border: 2px solid green;
+            
+            
+           
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div id="bg1">
+        
+        <div style="grid-column: 1/4; text-align: center;padding-top: 20px; ">
+            header
+
+        </div>
+        <div style="grid-row: 2/4;padding-top: 20px; padding-left: 20px;">
+            Menu
+
+        </div>
+        <div style="text-align: center;padding-top: 20px;">
+            Main
+
+        </div>
+        <div style="text-align: center;padding-top: 20px;">
+            Right
+
+        </div>
+        <div style="grid-column: 2/4; text-align: center;padding-top: 20px; ">
+            footer
+
+        </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>
